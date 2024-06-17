@@ -22,7 +22,7 @@ const Home = () => {
     { name: "Usuarios", link: "/", icon: HiOutlineDocumentReport },
     { name: "Emails", link: "/", icon: MdOutlineMail },
     { name: "Logs", link: "/", icon: HiOutlineTicket },
-    // { name: "Sair", link: "/", icon: IoIosLogOut },
+    { name: "Sair", link: "/", icon: IoIosLogOut },
   ];
 
   const [open, setOpen] = useState(true);
