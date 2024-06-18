@@ -45,7 +45,7 @@ const Home = () => {
             <Link
               to={menu?.link}
               key={i}
-              className=" group flex items-center text-sm  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md border">
+              className=" group flex items-center text-sm  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md">
 
               {/* Centraliazar o icone */}
               <div className="w-5 h-5 flex items-center justify-center">
