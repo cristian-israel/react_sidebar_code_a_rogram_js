@@ -39,7 +39,7 @@ const Home = () => {
         </div>
 
         {/* Nav */}
-        <div className="flex flex-col justify-center gap-4 h-full">
+        <div className="flex flex-col justify-center gap-6 h-full">
 
           {menus?.map((menu, i) => (
             <Link
@@ -48,7 +48,6 @@ const Home = () => {
               className=" group flex items-center text-sm  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md border">
 
               {/* Centraliazar o icone */}
-              {/* <div>{React.createElement(menu?.icon, { size: "20" })}</div> */}
               <div className="w-5 h-5 flex items-center justify-center">
                 {React.createElement(menu?.icon, { size: "20" })}
               </div>
